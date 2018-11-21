@@ -6,7 +6,7 @@ The actor model uses 3 Linear layers with 600 nodes apiece. The critic model use
 
 ### Learning Algorithm
 
-The learning algorithm uses deep deterministic policy gradient (DDPG) to train. It uses one neural network, the actor to provide actions from states, and the second takes both states and actions to estimate the reward that will be produced.
+The learning algorithm uses deep deterministic policy gradient (DDPG) to train. It uses one neural network, the actor to provide actions from states. The second, the critic, takes both states and actions to estimate the reward that will be produced.
 
 ### Learning parameters
 
