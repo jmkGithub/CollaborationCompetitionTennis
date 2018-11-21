@@ -4,6 +4,10 @@
 
 The actor model uses 3 Linear layers with 600 nodes apiece. The critic model uses 4 Linear layers with varying nodes each (600, 500, 400). Identical to Last project. The noise applied to this is significantly higher than the noise of the previous project, however, the noise is multiplied by epsilon which decays every episode to a minimum of 0.01. 
 
+### Learning Algorithm
+
+The learning algorithm uses deep deterministic policy gradient (DDPG) to train. It uses one neural network, the actor to provide actions from states, and the second takes both states and actions to estimate the reward that will be produced.
+
 ### Learning parameters
 
 Epsilon start = 1.0
@@ -35,6 +39,8 @@ For noise: mu=0.1, theta=1.5, sigma=0.2
 Local average and local max refer to the average and max over 10 episodes. Max refers to the maximum score over all episodes, Average is the 100 episode average. 
 
 The environment took 486 episodes to reach an average of 0.505. With a maximum of 2.6
+
+![image](
 
 ### The future
 
