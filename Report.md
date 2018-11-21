@@ -40,7 +40,7 @@ Local average and local max refer to the average and max over 10 episodes. Max r
 
 The environment took 486 episodes to reach an average of 0.505. With a maximum of 2.6
 
-![image](
+![image](https://github.com/jmkGithub/CollaborationCompetitionTennis/blob/master/ScorePlot.jpg)
 
 ### The future
 
